@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #1E1E1E;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+    padding:10px 20px;
+
+}
+.right{
+    display:flex;
+    background-color:yellow;
+    gap:30px;
+}
+a,.container>div{
+    background-color: yellow;
+    text-decoration: none;
+}
+.container1{
+    display:flex;
+    padding:10px 20px;
+    color:white;
+    
+    margin:20px 0px; 
+
+}
+img{
+    width:300px;
+}
+.container1-left{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width:80%;
+}
+button{
+    color:#1E1E1E;
+    background-color: yellow;
+    width:15%;
+    padding:10px;
+    border-radius: 5px;
+}
+.contact-container{
+    margin:20px;
+color:yellow;
+
+}
+.contact-container>button{
+    margin:0% 50%;
+
+}
+input{
+    display: block;
+    width:98%;
+    padding:10px;
+    border-radius: 5px;
+    border-color: yellow;
+    margin:10px 0px;
+}
+.table-container{
+    margin:50px;
+}
+table{
+    border:2px solid black;
+    border-collapse: collapse;
+    width:100%;
+    color:yellow;
+    
+
+}
+thead>tr:first-child{
+    border:2px solid black;
+
+}
+tfoot>tr{
+    border:2px solid black;
+}
+tfoot td{
+    background-color: yellow;
+    color:#1E1E1E;
+}
+td,th{
+    border-left: 2px solid black;
+    padding:10px 20px;
+}
+input:hover{
+    outline:none;
+}
+
+
